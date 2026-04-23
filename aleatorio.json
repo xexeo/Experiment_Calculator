@@ -1,0 +1,54 @@
+{
+  "hyperparameters": [
+    {
+      "name": "Cor",
+      "values": [
+        "vermelho",
+        "verde",
+        "azul",
+        "amarelo",
+        "cian",
+        "magenta"
+      ]
+    },
+    {
+      "name": "Medalha",
+      "values": [
+        "bronze",
+        "prata",
+        "ouro"
+      ]
+    },
+    {
+      "name": "Sinal",
+      "values": [
+        "aberto",
+        "fechado"
+      ]
+    },
+    {
+      "name": "Refeição",
+      "values": [
+        "Café da Manhã",
+        "Almoço",
+        "Jantar"
+      ]
+    }
+  ],
+  "max_operations": 100,
+  "repetitions": 3,
+  "t_strength": 2,
+  "weights": {
+    "twise": 10.0,
+    "marginal": 3.0,
+    "diversity": 1.0
+  },
+  "candidate_pool_size": 6000,
+  "greedy_iterations": 250,
+  "progress_every": 10,
+  "seed": 42,
+  "refinement_locks": {
+    "names": [],
+    "values": []
+  }
+}
